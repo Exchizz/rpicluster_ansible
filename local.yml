@@ -1,6 +1,7 @@
-- shell: /usr/bin/uptime
-  register: result
-
-- debug:
-    var: result
-    verbosity: 2
+tasks:
+    - shell: /usr/bin/uptime
+      register: result
+    
+    - debug:
+        var: result
+        verbosity: 2
