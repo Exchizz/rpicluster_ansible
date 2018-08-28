@@ -1,4 +1,5 @@
-tasks:
+- hosts: all
+  tasks:
     - shell: /usr/bin/uptime
       register: result
     
