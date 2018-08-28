@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: localhost
   tasks:
     - shell: /usr/bin/uptime
       register: result
